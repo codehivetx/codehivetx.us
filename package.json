@@ -1,0 +1,12 @@
+{
+  "name": "codehivetx.us",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop --port 8889",
+    "explore": "gridsome explore --port 8889"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  }
+}
