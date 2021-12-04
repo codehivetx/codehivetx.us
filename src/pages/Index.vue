@@ -10,10 +10,6 @@
       Welcome to codehivetx.us
     </p>
 
-    <p class="home-links">
-      GitHub: <a href="https://srl295.github.io/" target="_blank" rel="noopener">@srl295</a>
-    </p>
-
   </Layout>
 </template>
 
