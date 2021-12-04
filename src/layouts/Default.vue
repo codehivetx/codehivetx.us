@@ -10,6 +10,8 @@
       </nav>
     </header>
     <slot/>
+    <hr/>
+    © 2021 Code Hive Tx, LLC
   </div>
 </template>
 

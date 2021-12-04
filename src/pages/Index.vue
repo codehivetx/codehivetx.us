@@ -14,10 +14,6 @@
       GitHub: <a href="https://srl295.github.io/" target="_blank" rel="noopener">@srl295</a>
     </p>
 
-    <hr/>
-
-    © 2021 Code Hive Tx, LLC
-
   </Layout>
 </template>
 
