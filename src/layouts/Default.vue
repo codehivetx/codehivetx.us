@@ -1,6 +1,7 @@
 <template>
   <div class="layout">
     <header class="header">
+      <img src="/codehivetx.png" height="50"/>
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
