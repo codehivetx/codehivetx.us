@@ -1,5 +1,5 @@
 {
-  "name": "codehivetx.us",
+  "name": "@codehivetx/codehivetx.us",
   "private": true,
   "scripts": {
     "build": "gridsome build",
