@@ -13,7 +13,7 @@
     </header>
     <slot/>
     <hr/>
-    © 2021 Code Hive Tx, LLC
+    © 2022 Code Hive Tx, LLC
   </div>
 </template>
 
