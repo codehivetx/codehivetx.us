@@ -13,7 +13,7 @@
     </header>
     <slot/>
     <hr/>
-    © 2022 Code Hive Tx, LLC
+    © 2022 Code Hive Tx, LLC • <a href="https://github.com/codehivetx/codehivetx.us">Fork me on GitHub!</a>
   </div>
 </template>
 
