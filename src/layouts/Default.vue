@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <header class="header">
-      <img src="/codehivetx.png" height="50"/>
+      <img alt="[Code Hive Tx, LLC Logo]" src="/codehivetx.png" height="50"/>
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
@@ -10,10 +10,11 @@
         <g-link class="nav__link" to="/about/">About</g-link>
         <g-link class="nav__link" to="/contact/">Contact</g-link>
       </nav>
+      <tt>[Code, People, World];</tt>
     </header>
     <slot/>
     <hr/>
-    © 2022 Code Hive Tx, LLC • <a href="https://github.com/codehivetx/codehivetx.us">Fork me on GitHub!</a>
+    © 2021—2022 Code Hive Tx, LLC • <a href="https://github.com/codehivetx/codehivetx.us">Fork me on GitHub!</a>
   </div>
 </template>
 
@@ -31,6 +32,7 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
+  background-image: url('/hive.png')
 }
 
 .layout {
