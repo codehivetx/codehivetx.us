@@ -4,7 +4,7 @@
     <p>The Code Hive Tx LLC website and online applications do not
       collect any personally identifiable information.</p>
 
-    <h1 id="privacy">End User License Agreement</h1>
+    <h1 id="eula">End User License Agreement</h1>
     <p>You agree to be bound by applicable law.
       Clients are bound by the terms of their
       agreement with Code Hive Tx LLC.
