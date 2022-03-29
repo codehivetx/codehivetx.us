@@ -1,13 +1,14 @@
 <template>
   <Layout>
 
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
-
-    <h1>Welcome to the Code Hive</h1>
+    <h1>Welcome to the hive!</h1>
 
     <p>
-      Welcome to codehivetx.us
+      Code Hive Tx, LLC is a small software consultancy located in Dripping Springs, Texas, USA.
+    </p>
+
+    <p>
+      You can read more <a href="/about/">about</a> us, as well as about <a href="/bees/">bees</a>.
     </p>
 
   </Layout>
