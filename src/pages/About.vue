@@ -43,7 +43,21 @@ export default {
 <style>
 pre > code {
   font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
-  white-space: pre-wrap;
   background: inherit !important;
 }
+
+.hljs-attr {
+  font-weight: 600;
+  color: darkslategray;
+}
+
+.hljs-string {
+  color: darkslateblue;
+  white-space: pre-wrap;
+}
+
+.hljs-punctuation {
+  color: slategray;
+}
+
 </style>
