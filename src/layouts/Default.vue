@@ -15,10 +15,20 @@
     </header>
     <slot/>
     <hr/>
-    © 2021—2023 Code Hive Tx, LLC • <a href="https://github.com/codehivetx/codehivetx.us">Fork me on GitHub!</a>
+    © 2021—{{ thisyear }} Code Hive Tx, LLC • <a href="https://github.com/codehivetx/codehivetx.us">Fork me on GitHub!</a>
     • Social:         <code>@codehivetx</code> on <a href="https://twitter.com/codehivetx">Twitter</a> | <a href="https://github.com/codehivetx">GitHub</a>
   </div>
 </template>
+
+<script>
+export default {
+  computed: {
+    thisyear() {
+      return new Date().getFullYear();
+    }
+  }
+}
+</script>
 
 <static-query>
 query {
