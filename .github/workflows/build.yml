@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 19
       - name: Cache npm repository
         uses: actions/cache@v3
         with:
@@ -24,7 +24,7 @@ jobs:
       - name: Installing packages
         run: npm ci
       - name: Build Gridsome site
-        run: npm run build
+        run: env NODE_OPTIONS=--openssl-legacy-provider npm run build
       - name: rsync dist
         uses: burnett01/rsync-deployments@5.1
         with:
