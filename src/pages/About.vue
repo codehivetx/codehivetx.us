@@ -29,8 +29,17 @@
       Owner: <a href="https://srl295.github.io/" target="_blank" rel="noopener">@srl295</a>
     </p>
 
+    <h2>Recent Portfolio</h2>
+    <p>(Partial list)</p>
+    <ul>
+      <li><a href="https://cldr.unicode.org">CLDR</a> — modernization and tool improvements</li>
+      <li><a href="https://home.unicode.org/adopt-a-character/about-adopt-a-character/">Unicode AAC Grant</a> — progessing the <a href="https://cldr.unicode.org/index/keyboard-workgroup">LDML Keyboard</a> spec.</li>
+      <li><a href="https://keyman.com/ldml">Keyman LDML</a> — design and implementation of LDML Keyboard support</li>
+      <li>Fintech sector — implementation of a distributed computing system for testing and machine learning training. Improvements to automated build system and observability through custom Prometheus collectors.  General IT support.</li>
+    </ul>
+    <h2>News</h2>
     <p>
-      <b>Update:</b> See our <a href="https://srl295.github.io/2022/12/26/code-hive-2022/">2022 Year-End Update</a>
+      For a recent update, see our <a href="https://srl295.github.io/2022/12/26/code-hive-2022/">2022 Year-End Update</a>.
     </p>
 
   </Layout>
