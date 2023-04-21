@@ -23,8 +23,8 @@ jobs:
             ${{ runner.os }}-
       - name: Installing packages
         run: npm ci
-      - name: Build Gridsome site
-        run: env NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider npm run build
+      - name: Build site
+        run: env NODE_ENV=production npm run build
       - name: rsync dist
         uses: burnett01/rsync-deployments@5.1
         with:
