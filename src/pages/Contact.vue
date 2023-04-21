@@ -10,7 +10,7 @@
   </Layout>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   metaInfo: {
     title: 'Contact us'

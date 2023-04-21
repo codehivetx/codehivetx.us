@@ -45,7 +45,7 @@
   </Layout>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   metaInfo: {
     title: 'About us'

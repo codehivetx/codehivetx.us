@@ -22,7 +22,7 @@
   </Layout>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   metaInfo: {
     title: 'Privacy Policy and End User Agreement'

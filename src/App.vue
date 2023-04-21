@@ -1,21 +1,37 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import About from './pages/About.vue';
+import Bees from './pages/Bees.vue';
+import Contact from './pages/Contact.vue';
+import Index from './pages/Index.vue';
+import PrivacyAgreement from './pages/PrivacyAgreement.vue';
+// import { defineComponent } from 'vue';
 </script>
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <h4><i>Pardon our dust.. upgrade to Vue3 in progress.</i></h4>
+    <center>
+      <a href="/"><img alt="[Code Hive Tx, LLC Logo]" src="./assets/codehivetx.png" height="50"/></a>
+    </center>
+  <!-- <a-carousel > -->
+    <Index/>
+    <hr/>
+    <About/>
+    <hr/>
+    <Contact/>
+    <hr/>
+    <Bees/>
+    <hr/>
+    <PrivacyAgreement/>
+    <hr/>
+    © 2021—{{ thisyear }} Code Hive Tx, LLC • <a href="https://github.com/codehivetx/codehivetx.us">Fork me on GitHub!</a>
+    • Social:         <code>@codehivetx</code> on <a href="https://twitter.com/codehivetx">Twitter</a> | <a href="https://github.com/codehivetx">GitHub</a>
+  <!-- </a-carousel> -->
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
-.logo {
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -26,5 +42,15 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
-}
+} */
 </style>
+
+<script lang="ts">
+export default {
+  computed: {
+    thisyear() {
+      return new Date().getFullYear();
+    }
+  }
+}
+</script>
