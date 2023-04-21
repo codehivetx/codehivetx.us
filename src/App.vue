@@ -16,10 +16,12 @@ import PrivacyAgreement from './pages/PrivacyAgreement.vue';
   <!-- <a-carousel > -->
     <Index/>
     <hr/>
+    <a name="about" />
     <About/>
     <hr/>
     <Contact/>
     <hr/>
+    <a name="bees" />
     <Bees/>
     <hr/>
     <PrivacyAgreement/>
