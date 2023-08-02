@@ -19,13 +19,18 @@
         volume to surface area.
       </li>
 
-      <li>
-          Sorry, we don’t have honey, bees, or hives for sale… but the
+    </ol>
+
+    <p>
+        We’ve curated some <a href="https://unsplash.com/collections/aT3yHhUkxYk/abejas">bee pictures</a>, which make great backgrounds.
+      </p>
+
+      <p>
+          Sorry, we don’t have honey, bees, or hives for sale— but the
           Texas Beekeepers Association can help you find
           <a href="https://texasbeekeepers.org/honey-locator/">Texas honey</a> or
           other information.
-      </li>
-    </ol>
+      </p>
 
 
   </Layout>
