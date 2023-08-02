@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <!-- <Layout> -->
 
     <h1>Welcome to the hive!</h1>
 
@@ -15,7 +15,7 @@
       <b>Update:</b> See our <a href="https://srl295.github.io/2022/12/26/code-hive-2022/">2022 Year-End Update</a>
     </p>
 
-  </Layout>
+  <!-- </Layout> -->
 </template>
 
 <script lang="ts">
