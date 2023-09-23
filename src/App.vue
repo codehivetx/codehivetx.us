@@ -1,19 +1,18 @@
 <script setup lang="ts">
-import About from './pages/About.vue';
-import Bees from './pages/Bees.vue';
-import Contact from './pages/Contact.vue';
-import Index from './pages/Index.vue';
-import PrivacyAgreement from './pages/PrivacyAgreement.vue';
+// import About from './pages/About.vue';
+// import Bees from './pages/Bees.vue';
+// import Contact from './pages/Contact.vue';
+// import Index from './pages/Index.vue';
+// import PrivacyAgreement from './pages/PrivacyAgreement.vue';
 // import { defineComponent } from 'vue';
 </script>
 
 <template>
   <div>
-    <h4><i>Pardon our dust.. upgrade to Vue3 in progress.</i></h4>
     <center>
-      <a href="/"><img alt="[Code Hive Tx, LLC Logo]" src="./assets/codehivetx.png" height="50"/></a>
+      <router-link to="/"><img alt="[Code Hive Tx, LLC Logo]" src="./assets/codehivetx.png" height="50"/></router-link>
     </center>
-  <!-- <a-carousel > -->
+  <!-- <a-carousel >
     <Index/>
     <hr/>
     <a name="about" />
@@ -24,7 +23,9 @@ import PrivacyAgreement from './pages/PrivacyAgreement.vue';
     <a name="bees" />
     <Bees/>
     <hr/>
-    <PrivacyAgreement/>
+    <PrivacyAgreement/> -->
+    <!-- router stuff here -->
+    <router-view></router-view>
     <hr/>
     © 2021—{{ thisyear }} Code Hive Tx, LLC • <a href="https://github.com/codehivetx/codehivetx.us">Fork me on GitHub!</a>
     • Social:         <code>@codehivetx</code> on <a href="https://twitter.com/codehivetx">Twitter</a> | <a href="https://github.com/codehivetx">GitHub</a>

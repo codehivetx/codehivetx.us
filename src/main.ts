@@ -4,6 +4,7 @@
 // import VueGtag from "vue-gtag";
 
 // // pages
+import App from './App.vue';
 import About from './pages/About.vue';
 // import Bees from './pages/Bees.vue';
 // import Contact from './pages/Contact.vue';
@@ -88,9 +89,11 @@ const router = createRouter({
 })
 
 // 5. Create and mount the root instance.
-const app = createApp({
-    render: ()=>h(Index)
-});
+const app = createApp(App);
+
+// const app = createApp({
+//     render: ()=>h(Index)
+// });
 // Make sure to _use_ the router instance to make the
 // whole app router-aware.
 app.use(router)

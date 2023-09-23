@@ -8,7 +8,7 @@
     </p>
 
     <p>
-      You can read more <a href="#about">about</a> us, as well as about <a href="#bees">bees</a>.
+      You can read more <router-link to="/about">about</router-link> us, as well as about <a href="#bees">bees</a>.
     </p>
 
     <p>
