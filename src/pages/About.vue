@@ -1,5 +1,4 @@
 <template>
-  <Layout>
     <h1>About Code Hive Tx, LLC</h1>
     <p>Code Hive Tx, LLC is a small consultancy with a focus on
       internationalization and global enablement. It was established in 2021,
@@ -13,17 +12,17 @@
     </p>
 
     <p>
-      Our slogan <tt>[Code, People, World];</tt> represents:
+      Our slogan <span class="tt">[Code, People, World];</span> represents:
     </p>
 
-<pre v-highlightjs><code class="json">
-{
+    <highlightjs
+        language="json" code='{
   "Code": "Artisan crafted software, with an emphasis on careful test-driven design.",
 
   "People": "Projects that make a difference for real people. Careful discussion to understand your organization’s needs, and the followup to get the job done right."
 
   "World": "Enabling communications for all of the world’s people."
-}</code></pre>
+}'/>
 
     <p class="home-links">
       Owner: <a href="https://srl295.github.io/" target="_blank" rel="noopener">@srl295</a>
@@ -42,7 +41,6 @@
       For a recent update, see our <a href="https://srl295.github.io/2022/12/26/code-hive-2022/">2022 Year-End Update</a>.
     </p>
 
-  </Layout>
 </template>
 
 <script lang="ts">

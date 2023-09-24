@@ -1,5 +1,4 @@
 <template>
-  <Layout>
     <h1>Bees 🐝</h1>
 
     <p>
@@ -34,7 +33,6 @@
       other information.
     </p>
 
-  </Layout>
 </template>
 
 <script lang="ts">

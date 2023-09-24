@@ -1,5 +1,4 @@
 <template>
-  <Layout>
 
     <h1>Welcome to the hive!</h1>
 
@@ -8,14 +7,13 @@
     </p>
 
     <p>
-      You can read more <a href="#about">about</a> us, as well as about <a href="#bees">bees</a>.
+      You can read more <router-link to="/about">about</router-link> us, as well as about <a href="#bees">bees</a>.
     </p>
 
     <p>
       <b>Update:</b> See our <a href="https://srl295.github.io/2022/12/26/code-hive-2022/">2022 Year-End Update</a>
     </p>
 
-  </Layout>
 </template>
 
 <script lang="ts">
