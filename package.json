@@ -9,9 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@highlightjs/vue-plugin": "^2.1.0",
     "ant-design-vue": "^4.0.3",
     "vue": "^3.3.4",
-    "vue-gtag": "^2.0.1",
+    "vue-gtag-next": "^1.14.0",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {

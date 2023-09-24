@@ -1,5 +1,4 @@
 <template>
-  <Layout>
     <h1>Contact</h1>
 
     Use the button below to get in touch with us.
@@ -7,7 +6,6 @@
     <form method="GET" action="https://forms.gle/6ysCNRU9SaEzme7c7">
       <input type="submit" value="Contact Us" />
     </form>
-  </Layout>
 </template>
 
 <script lang="ts">
@@ -17,3 +15,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+input {
+  font-size: x-large;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+</style>

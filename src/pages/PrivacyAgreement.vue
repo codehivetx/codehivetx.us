@@ -1,5 +1,4 @@
 <template>
-  <Layout>
     <h1 id="privacy">Privacy Policy</h1>
     <p>The Code Hive Tx LLC website and online applications do not
       collect any personally identifiable information.</p>
@@ -19,7 +18,6 @@
       Owner: <a href="https://srl295.github.io/" target="_blank" rel="noopener">@srl295</a>
     </p>
 
-  </Layout>
 </template>
 
 <script lang="ts">

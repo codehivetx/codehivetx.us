@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <center>
+    <div class="centered">
       <router-link to="/"><img class="logo" alt="[Code Hive Tx, LLC Logo]" src="./assets/codehivetx.png" height="50" /></router-link>
       <br />
       <router-link to="/">Home</router-link> |
@@ -11,7 +11,7 @@
       <router-link to="/contact">Contact</router-link> |
       <router-link to="/bees">Bees</router-link> |
       <router-link to="/privacy">Privacy</router-link>
-    </center>
+    </div>
     <router-view></router-view>
     <hr />
     © 2021—{{ thisyear }} Code Hive Tx, LLC • <a href="https://github.com/codehivetx/codehivetx.us">Fork me on GitHub!</a>

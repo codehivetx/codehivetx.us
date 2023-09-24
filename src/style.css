@@ -15,6 +15,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.tt {
+  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+}
+
 a {
   font-weight: 500;
   color: #333984;

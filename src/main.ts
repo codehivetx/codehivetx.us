@@ -1,5 +1,6 @@
 // import Antd from 'ant-design-vue';
-import VueGtag from "vue-gtag";
+import VueGtag from "vue-gtag-next";
+import { trackRouter } from "vue-gtag-next";
 
 // pages
 import App from './App.vue';
@@ -8,6 +9,13 @@ import Bees from './pages/Bees.vue';
 import Contact from './pages/Contact.vue';
 import Index from './pages/Index.vue';
 import PrivacyAgreement from './pages/PrivacyAgreement.vue';
+import NotFound from './pages/NotFound.vue';
+
+import 'highlight.js/styles/github.css'
+import hljs from 'highlight.js/lib/core';
+import json from 'highlight.js/lib/languages/json';
+import hljsVuePlugin from "@highlightjs/vue-plugin";
+
 
 import { createApp } from 'vue';
 import { createRouter, createWebHashHistory } from 'vue-router';
@@ -36,6 +44,7 @@ const routes = [
         path: '/privacy',
         component: PrivacyAgreement,
     },
+    { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
 ];
 
 const router = createRouter({
@@ -43,19 +52,24 @@ const router = createRouter({
     routes,
 })
 
+// install gtag on the router
+trackRouter(router);
+
 const app = createApp(App);
 
 app.use(router);
 // app.use(Antd);
+hljs.registerLanguage('json', json);
+
+app.use(hljsVuePlugin)
 app.use(VueGtag, {
-    config: {
+    property: {
         id: "G-QHK7PH5P59",
         params: {
             anonymize_ip: true,
-            send_page_view: false, // while we're not yet a SPA
+            send_page_view: false,
         }
     }
 });
-
 
 app.mount('#app');
