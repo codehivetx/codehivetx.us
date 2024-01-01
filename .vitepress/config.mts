@@ -22,12 +22,16 @@ export default defineConfig({
     i18nRouting: true,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: './' },
-      { text: 'About', link: './about' },
-      { text: 'Contact', link: './contact' },
-      { text: 'Bees', link: './bees' },
-      { text: 'Privacy', link: './privacy' },
+      { text: 'Home', link: '/en/' },
+      { text: 'About', link: '/en/about', activeMatch: '\/.*\/about.*' },
+      { text: 'Blog', link: '/en/blog', activeMatch: '\/.*\/(blog|posts).*' },
+      { text: 'Contact', link: '/en/contact' },
+      { text: 'Bees', link: '/en/bees' },
+      { text: 'Privacy', link: '/en/privacy' },
     ],
+    search: {
+      provider: 'local'
+    },
 
     // sidebar: [
     //   {
