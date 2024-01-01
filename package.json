@@ -9,6 +9,7 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
+    "markdown-it-footnote": "^4.0.0",
     "vitepress": "^1.0.0-rc.34",
     "vue": "^3.4.3"
   },

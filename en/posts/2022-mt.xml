@@ -1,0 +1,13 @@
+<keyboard locale="mt" conformsTo="techpreview">
+  <keys>
+    <key id="hmaqtugha" to="ħ" />
+    <key id="that" to="ថា" />
+  </keys>
+
+  <layers form="hardware">
+    <layer id="base">
+      <row keys="hmaqtugha that" />
+    </layer>
+  </layers>
+
+</keyboard>

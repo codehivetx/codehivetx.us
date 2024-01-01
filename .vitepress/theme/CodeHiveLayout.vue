@@ -44,6 +44,7 @@ const { frontmatter } = useData()
 li.bloglink {
   list-style-type: circle;
   margin-left: 3em;
+  padding-bottom: 1em;
 }
 
 li.bloglink h1 {

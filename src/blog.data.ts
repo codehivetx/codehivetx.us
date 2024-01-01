@@ -17,12 +17,13 @@ export default createContentLoader('en/posts/*.md', {
   excerpt: true,
   transform(raw): Post[] {
     return raw
+      .filter(({ frontmatter }) => !frontmatter?.draft)
       .map(({ url, frontmatter, excerpt }) => ({
         title: frontmatter.title,
         url,
         excerpt,
         date: formatDate(frontmatter.date)
       }))
-      .sort((a, b) => a.date[0].localeCompare(b.date[0], []));
+      .sort((a, b) => b.date[0].localeCompare(a.date[0], []));
   }
 });
