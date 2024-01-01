@@ -1,0 +1,30 @@
+name: Release
+
+on:
+    workflow_dispatch:
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - id: release
+        uses: CatChen/node-package-release-action@v1
+        with:
+          release-type: patch
+          prerelease: false
+          update-shorthand-release: false
+          skip-if-no-diff: true
+
+      - env:
+          TAG: ${{ steps.release.outputs.tag }}
+          SKIPPED: ${{ steps.release.outputs.skipped }}
+        run: |
+          if [[ "$SKIPPED"='true' ]]
+          then
+            echo 'Release is skipped.'
+          else
+            echo "Release $TAG successfully."
+          fi
