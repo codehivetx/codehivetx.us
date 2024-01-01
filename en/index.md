@@ -4,22 +4,15 @@ layout: home
 
 hero:
   name: "Code Hive Tx, LLC"
-  text: "Code Hive Tx, LLC is a small software consultancy located in Dripping Springs, Texas, USA."
-  tagline: My great project tagline
+  text: "Welcome to the hive!"
+  tagline: Code Hive Tx, LLC is a small software consultancy located in Dripping Springs, Texas, USA.
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  - theme: About
+    text: 'About Us'
+    link: ./about
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - theme: Bees
+    text: About Bees
+    link:  ./bees
 ---
 

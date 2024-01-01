@@ -26,12 +26,3 @@ onMounted(() => {
 <style scoped>
 </style>
 
-<script lang="ts">
-export default {
-  computed: {
-    thisyear() {
-      return new Date().getFullYear();
-    }
-  }
-}
-</script>

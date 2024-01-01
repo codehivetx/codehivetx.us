@@ -8,7 +8,7 @@
  *
  * Each colors have exact same color scale system with 3 levels of solid
  * colors with different brightness, and 1 soft color.
- * 
+ *
  * - `XXX-1`: The most solid color used mainly for colored text. It must
  *   satisfy the contrast ratio against when used on top of `XXX-soft`.
  *
@@ -94,8 +94,8 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
-    #41d1ff
+    goldenrod 30%,
+    rgba(131, 131, 17, 0.268)
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
@@ -137,3 +137,46 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+
+.tt {
+  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+}
+
+html:not(.dark) body {
+  background-image: url('../../img/hive.png');
+  background-attachment: fixed;
+}
+
+
+.dark body {
+  background-image: url('../../img/hivedk.png');
+  background-attachment: fixed;
+}
+
+
+.srl {
+  height: 15em;
+  float: right;
+  margin-left: 2em;
+}
+
+input.chcontact {
+  font-size: x-large;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.action {
+  border: 2px solid rgb(35, 35, 44);
+  border-radius: 5px;
+  margin: 1em;
+}
+
+.action:hover {
+  background-color: goldenrod;
+}
+
+.action > .VPButton {
+  font-size: xx-large !important;
+}
