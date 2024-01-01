@@ -37,11 +37,11 @@ export default defineConfig({
       lang: 'en',
       link: '/en',
     },
-    // es: {
-    //   label: 'español',
-    //   lang: 'es', // optional, will be added  as `lang` attribute on `html` tag
-    //   link: '/es' // default /fr/ -- shows on navbar translations menu, can be external
-    //   // other locale specific properties...
-    // }
+    es: {
+      label: 'español',
+      lang: 'es', // optional, will be added  as `lang` attribute on `html` tag
+      link: '/es' // default /fr/ -- shows on navbar translations menu, can be external
+      // other locale specific properties...
+    }
   },
 })
