@@ -6,7 +6,15 @@
 
 ## Instructions here
 
+to preview:
+
+- `npm run dev`
+
+to build:
+
+- `npm run build`
+
 ## LICENSE
 
 - © 2021-2024 Code Hive Tx, LLC.
-- Licensed under [LICENSE](./LICENSE)
+- Licensed under [LICENSE.txt](./LICENSE.txt)
