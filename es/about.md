@@ -1,36 +1,37 @@
 # About Code Hive Tx, LLC
 
-Code Hive Tx, LLC is a small consultancy with a focus on internationalization and
-global enablement. It was established in 2021, but brings many years of expertise to
-bear for your project.
+Code Hive Tx, LLC es una pequeña consultoría de software centrada en la internacionalización y la globalización. Fue establecido en 2021, pero aporta muchos años de experiencia a
+para su proyecto.
 
-We are located in [Dripping Springs](https://www.cityofdrippingsprings.com/welcome-visitors),
-Hays County, Texas, USA. About 45 minutes from Austin.
-
-
-## Owner: Steven R. Loomis
-
-<img src="../img/srl.jpg" class="srl" title="Steven R. Loomis" alt="Photo of Steven R. Loomis — wearing a black felt western hat" />
+Estamos ubicados en [Dripping Springs](https://www.cityofdrippingsprings.com/welcome-visitants),
+Hays County, Texas, Estados Unidos. A unos 45 minutos de Austin.
 
 
-Steven brings more than two decades of experience to Code Hive Tx — innovating and developing processes, tools, and
-organizations critical to modern software globalization. Read [Steven’s Resume](../en/resume.md).
+## Propietario: Steven R. Loomis
 
-## Mission Statement
+<img src="../img/srl.jpg" class="srl" title="Steven R. Loomis" alt="Foto de Steven R. Loomis — llevar un sombrero occidental de sentido negro" />
+
+
+Steven trae más de dos décadas de experiencia a Code Hive Tx — innovando y desarrollando procesos, herramientas, y
+organizaciones críticas para la globalización de software moderna.
+Lee [Steven’s Resume](../en/resume.md).
+
+## Declaración de Misión
 
 ```json
 {
   "Code": [
-    "Artisan crafted software, ",
-    "with an emphasis on careful test-driven design."
+    "Software artesano fabricado, ",
+    "con énfasis en un cuidadoso diseño a prueba."
   ],
-  "People": [
-    "Projects that make a difference for real people.",
-    "Careful discussion to understand your organization’s needs, ",
-    "and the followup to get the job done right.",
+  "Pueblos": [
+    "Proyectos que marcan la diferencia para la gente real. ",
+    "Discusión cuidadosa para entender las necesidades de su ",
+    "organización y el seguimiento ",
+    "para que el trabajo se haga correctamente."
   ],
-  "World": [
-    "Enabling communications for all of the world’s people."
+  "Mundo": [
+    "Permitir comunicaciones para todos los pueblos del mundo."
   ]
 }
 ```
