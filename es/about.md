@@ -14,7 +14,7 @@ Hays County, Texas, USA. About 45 minutes from Austin.
 
 
 Steven brings more than two decades of experience to Code Hive Tx — innovating and developing processes, tools, and
-organizations critical to modern software globalization. Read [Steven’s Resume](./resume.md).
+organizations critical to modern software globalization. Read [Steven’s Resume](../en/resume.md).
 
 ## Mission Statement
 
