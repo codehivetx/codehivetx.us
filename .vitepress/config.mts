@@ -36,9 +36,9 @@ export default defineConfig({
       { text: 'Bees', link: '/en/bees' },
       { text: 'Privacy', link: '/en/privacy' },
     ],
-    search: {
-      provider: 'local'
-    },
+    // search: {
+    //   provider: 'local'
+    // },
 
     // sidebar: [
     //   {
