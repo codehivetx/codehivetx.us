@@ -5,6 +5,8 @@ date: 2022-12-26
 
 Well, it was 2.5 years since I posted the [srl.next](https://srl295.github.io/2020/07/16/srl-next/) article and clearly a lot has gone on.
 
+---
+
 We’re at the end of the year, when in the [Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar) we remember and celebrate Christ’s incarnation—Christmas!  So this post will serve as a bit of an update.
 
 ##  What’s been going on?

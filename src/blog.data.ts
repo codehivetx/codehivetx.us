@@ -15,6 +15,7 @@ export { data };
 
 export default createContentLoader('en/posts/*.md', {
   excerpt: true,
+  render: true,
   transform(raw): Post[] {
     return raw
       .filter(({ frontmatter }) => !frontmatter?.draft)

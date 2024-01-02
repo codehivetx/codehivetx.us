@@ -32,7 +32,10 @@ const { frontmatter } = useData()
     <template #doc-after v-if="frontmatter.index">
       <ul>
         <li class="bloglink" v-for="post of posts">
-          <a :href="post.url"><h1><b>{{ post.date[1] }}</b>:  {{ post.title }}</h1></a>
+          <a :href="post.url"><h1><b>{{ post.title }}</b></h1></a>
+          <h2>{{ post.date[1] }}</h2>
+          <p v-if="post.excerpt" v-html="post.excerpt"/>
+          <a :href="post.url" v-if="post.excerpt"><i>Read more…</i></a>
         </li>
       </ul>
     </template>
@@ -40,6 +43,11 @@ const { frontmatter } = useData()
 </template>
 
 <style scoped>
+
+
+.bloglink i {
+  font-weight: bolder;
+}
 
 li.bloglink {
   list-style-type: circle;
