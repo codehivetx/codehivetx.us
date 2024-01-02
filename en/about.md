@@ -1,13 +1,10 @@
----
----
 # About Code Hive Tx, LLC
 
 Code Hive Tx, LLC is a small consultancy with a focus on internationalization and
 global enablement. It was established in 2021, but brings many years of expertise to
 bear for your project.
 
-We are located in
-<a href="https://www.cityofdrippingsprings.com/welcome-visitors">Dripping Springs</a>,
+We are located in [Dripping Springs](https://www.cityofdrippingsprings.com/welcome-visitors),
 Hays County, Texas, USA. About 45 minutes from Austin.
 
 
