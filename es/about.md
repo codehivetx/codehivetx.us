@@ -1,4 +1,4 @@
-# About Code Hive Tx, LLC
+# Acerca de Code Hive Tx, LLC
 
 Code Hive Tx, LLC es una pequeña consultoría de software centrada en la internacionalización y la globalización. Fue establecido en 2021, pero aporta muchos años de experiencia a
 para su proyecto.
