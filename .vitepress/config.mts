@@ -30,11 +30,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/en/' },
-      { text: 'About', link: '/en/about', activeMatch: '\/.*\/about.*' },
+      { text: 'About', link: '/en/about', activeMatch: '\/.*\/(about|resume).*' },
       { text: 'Blog', link: '/en/blog', activeMatch: '\/.*\/(blog|posts).*' },
       { text: 'Contact', link: '/en/contact' },
-      { text: 'Bees', link: '/en/bees' },
-      { text: 'Privacy', link: '/en/privacy' },
+      { text: 'Bees', link: '/en/bees', activeMatch: '\/.*\/(bees).*' },
     ],
     // search: {
     //   provider: 'local'

@@ -18,8 +18,8 @@ const { frontmatter } = useData()
     </template> -->
     <template #layout-bottom>
       <div class="chtx-footer">
-        © 2021—{{ thisyear }} Code Hive Tx, LLC • <a href="https://github.com/codehivetx/codehivetx.us">Fork me on GitHub!</a>
-      • Social: <code>@codehivetx</code> on <a href="https://twitter.com/codehivetx">Twitter</a> | <a
+        © 2021—{{ thisyear }} Code Hive Tx, LLC • <a href="https://github.com/codehivetx/codehivetx.us">Fork me on GitHub!</a> • <a href="/en/privacy">Privacy</a> •
+      Social: <code>@codehivetx</code> on <!-- <a href="https://twitter.com/codehivetx">Twitter</a> | --> <a
         href="https://github.com/codehivetx">GitHub</a>
       </div>
     </template>

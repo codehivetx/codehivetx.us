@@ -156,8 +156,6 @@ html:not(.dark) body {
 
 .srl {
   height: 15em;
-  float: right;
-  margin-left: 2em;
 }
 
 input.chcontact {
