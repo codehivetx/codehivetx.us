@@ -98,8 +98,18 @@ export default defineConfig({
     es: {
       label: 'español',
       lang: 'es', // optional, will be added  as `lang` attribute on `html` tag
-      link: '/es' // default /fr/ -- shows on navbar translations menu, can be external
+      link: '/es', // default /fr/ -- shows on navbar translations menu, can be external
       // other locale specific properties...
+      // title: 'Code Hive Tx, LLC', // same
+      themeConfig: {
+        nav: [
+          { text: 'Principal', link: '/es/' },
+          { text: 'Acerca', link: '/es/about', activeMatch: '\/.*\/(about|resume).*' },
+          { text: 'Blog', link: '/es/blog', activeMatch: '\/.*\/(blog|posts).*' },
+          { text: 'Contacto', link: '/es/contact' },
+          { text: 'Abejas', link: '/es/bees', activeMatch: '\/.*\/(bees).*' },
+        ],
+      }
     }
   },
 })
