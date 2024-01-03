@@ -1,27 +1,22 @@
----
----
+# Abejas 🐝
 
-# Bees 🐝
+Puedes preguntar: "¿Por qué el nombre 'code hive'?" Entre muchas razones:
 
-You may ask, “Why the name ’code hive‘?” Among many reasons:
+1. Las abejas son criaturas increíbles,
+   y aunque algunas de ellas hacen miel (como _Apis mellifera_ y otros) pero también como
+   un polinizador importante. _¡Salvar las abejas!_
 
-1. Bees are amazing creatures,
-and although some of them make honey (as _Apis mellifera_ and others) but also as
-an important pollinator. *Save the bees!*
+2. Las abejas son criaturas muy trabajadoras. Aquí en Code Hive Tx, LLC, nuestro objetivo es trabajar duro
+   en tu proyecto!
 
-2. Bees are hard working creatures. Here at Code Hive Tx, LLC, we aim to work hard
-on your project!
+3. Las celdas hexagonales en la panal son [97% óptimo](https://es.wikipedia.org/wiki/Panal#Ángulo_de_las_celdas_de_los_panales)
+   en términos de volumen para el área de superficie.
 
-3. The hexagonal honeycomb ⬡ is [97% optimal](https://en.wikipedia.org/wiki/Honeycomb#Geometry)
-in terms of volume to surface area.
+Hemos curado algunas [imágenes de abejas](https://unsplash.com/collections/aT3yHhUkxYk/abejas), que hacen bien fondos de pantalla.
 
-We’ve curated some [bee pictures](https://unsplash.com/collections/aT3yHhUkxYk/abejas), which make great
-backgrounds.
+## Por lo demás
 
-## By the way
-
-Sorry, we don’t have honey, bees, or hives for sale— but the
-Texas Beekeepers Association can help you find
-[Texas honey](https://texasbeekeepers.org/honey-locator/) or
-other information.
-
+Lo sentimos, no tenemos miel, abejas ni colmenas en venta, pero la
+Asociación de apicultores de Texas puede ayudarte a encontrar
+[miel de Texas](https://texasbeekeepers.org/honey-locator/) o
+otra información.
