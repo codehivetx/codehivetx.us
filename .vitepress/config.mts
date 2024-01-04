@@ -110,6 +110,6 @@ export default defineConfig({
           { text: 'Abejas', link: '/es/bees', activeMatch: '\/.*\/(bees).*' },
         ],
       }
-    }
+    },
   },
 })

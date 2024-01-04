@@ -6,8 +6,7 @@ import { data as posts } from '../../src/blog.data';
 import formatDate from '../../src/formatDate';
 
 const { Layout } = DefaultTheme
-const { frontmatter } = useData()
-
+const { frontmatter, page, lang } = useData()
 
 </script>
 
@@ -39,9 +38,11 @@ const { frontmatter } = useData()
         </li>
       </ul>
     </template>
+    <template #doc-after v-if="!frontmatter.index">
+      <MissionStatement :lang="lang" />
+    </template>
   </Layout>
 </template>
-
 <style scoped>
 
 
@@ -94,6 +95,11 @@ export default {
     thisyear() {
       return new Date().getFullYear();
     },
-  }
+    slug() {
+      return "e";
+      // && page.filePath.split('/')[1].split('.')[0] == 'about'
+      // return page.filePath.split('/')[1].split('.')[0];
+    },
+  },
 }
 </script>

@@ -6,12 +6,17 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "postinstall": "node src/buildMission.js"
   },
   "devDependencies": {
+    "@types/node": "^20.10.6",
     "markdown-it-footnote": "^4.0.0",
     "vitepress": "^1.0.0-rc.34",
     "vue": "^3.4.3"
+  },
+  "peerDependencies": {
+    "markdown-it": "13.x"
   },
   "license": "MIT"
 }
