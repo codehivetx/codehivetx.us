@@ -38,7 +38,7 @@ const { frontmatter, page, lang } = useData()
         </li>
       </ul>
     </template>
-    <template #doc-after v-if="!frontmatter.index">
+    <template #doc-footer-before v-if="page.relativePath.endsWith('/about.md')">
       <MissionStatement :lang="lang" />
     </template>
   </Layout>
