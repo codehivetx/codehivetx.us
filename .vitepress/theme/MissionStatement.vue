@@ -19,6 +19,7 @@ const props = defineProps(['lang']);
 </template>
 
 <style scoped>
+
 .tt {
   font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
   font-size: large;
@@ -50,7 +51,7 @@ html:not(.dark) .tt b {
 
 html:not(.dark) .tt .intxt {
     color: #514b0a;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 

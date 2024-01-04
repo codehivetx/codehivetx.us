@@ -18,5 +18,8 @@
   "peerDependencies": {
     "markdown-it": "13.x"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource/source-code-pro": "^5.0.16"
+  }
 }

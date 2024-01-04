@@ -178,3 +178,8 @@ input.chcontact {
 .action > .VPButton {
   font-size: xx-large !important;
 }
+
+.VPDocFooter {
+  /* needed for mission statement */
+  margin-top: 0.25em !important;
+}
