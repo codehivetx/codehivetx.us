@@ -20,6 +20,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@fontsource/source-code-pro": "^5.0.16"
+    "@fontsource/source-code-pro": "^5.0.16",
+    "vue-vimeo-player": "^1.1.2"
   }
 }
