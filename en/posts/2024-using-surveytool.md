@@ -11,3 +11,5 @@ The Survey Tool has opened for data submission for version 46.
 If you would like to contribute content for your language, take a look at [cldr.unicode.org](https://cldr.unicode.org/#h.vw32p8sealpj) to get started.
 
 We're adding English subtitles and investigating a workflow for translating them as well.  That might be the subject of a separate blog post.
+
+Note: the video is also available on [Unicode's YouTube channel](https://www.youtube.com/watch?v=Wxs0TZl7Ljk)
