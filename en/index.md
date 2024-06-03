@@ -12,7 +12,7 @@ hero:
     link: ./about
 
   - theme: Bees
-    text: About Bees
+    text: 'About Bees'
     link:  ./bees
 ---
 
