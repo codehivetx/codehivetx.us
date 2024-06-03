@@ -6,8 +6,37 @@ on:
       - main
 
 jobs:
-  build:
+  # build:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v3
+  #     - uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 18
+  #     - name: Cache npm repository
+  #       uses: actions/cache@v3
+  #       with:
+  #         path: ~/.npm
+  #         key: ${{ runner.os }}-${{ hashFiles('package*.json') }}
+  #         restore-keys: |
+  #           ${{ runner.os }}-
+  #     - name: Installing packages
+  #       run: npm ci
+  #     - name: Build site
+  #       run: env NODE_ENV=production npm run build
+  #     - name: rsync dist
+  #       uses: burnett01/rsync-deployments@5.1
+  #       with:
+  #         switches: -avzr --delete
+  #         path: .vitepress/dist/
+  #         remote_path: ${{ secrets.POST_STAGING_PATH }}
+  #         remote_host: ${{ secrets.POST_STAGING_HOST }}
+  #         remote_user: ${{ secrets.POST_USER }}
+  #         remote_key: ${{ secrets.POST_KEY }}
+  deployment:
     runs-on: ubuntu-latest
+    environment: staging
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -30,11 +59,10 @@ jobs:
         with:
           switches: -avzr --delete
           path: .vitepress/dist/
-          remote_path: ${{ secrets.POST_STAGING_PATH }}
-          remote_host: ${{ secrets.POST_STAGING_HOST }}
+          remote_path: ${{ secrets.POST_PATH }}
+          remote_host: ${{ vars.POST_HOST }}
           remote_user: ${{ secrets.POST_USER }}
           remote_key: ${{ secrets.POST_KEY }}
-
           # only run one of these at a time
 concurrency:
   group: ${{ github.workflow }}
