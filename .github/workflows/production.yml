@@ -2,11 +2,11 @@ name: Deploy Releases to Production
 
 on:
   push:
-    tags:
-      - v*
+    branches:
+      - main
 
 jobs:
-  build:
+  production:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,9 +31,30 @@ jobs:
           switches: -avzr --delete
           path: .vitepress/dist/
           remote_path: ${{ secrets.POST_PATH }}
-          remote_host: ${{ secrets.POST_HOST }}
+          remote_host: ${{ vars.POST_HOST }}
           remote_user: ${{ secrets.POST_USER }}
           remote_key: ${{ secrets.POST_KEY }}
+      - uses: actions/checkout@v3
+
+      - id: release
+        uses: CatChen/node-package-release-action@v1
+        with:
+          release-type: patch
+          prerelease: false
+          update-shorthand-release: false
+          skip-if-no-diff: true
+
+      - env:
+          TAG: ${{ steps.release.outputs.tag }}
+          SKIPPED: ${{ steps.release.outputs.skipped }}
+        run: |
+          if [[ "$SKIPPED"='true' ]]
+          then
+            echo 'Release is skipped.'
+          else
+            echo "Release $TAG successfully."
+          fi
+
 
 # only run one of these at a time
 concurrency:
