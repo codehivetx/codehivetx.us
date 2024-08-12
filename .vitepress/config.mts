@@ -1,8 +1,23 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
+import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
+
+
+const title =  "Code Hive Tx, LLC";
+const description = "Code Hive Tx, LLC is a small software consultancy located in Dripping Springs, Texas, USA.";
+const thisYear = new Date().getFullYear();
+const RSS: RSSOptions = {
+  title,
+  description,
+  baseUrl: 'https://codehivetx.us',
+  copyright: `Copyright (c) 2021-${thisYear}, Code Hive Tx, LLC`,
+};
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    plugins: [RssPlugin(RSS)],
+  },
   markdown: {
     config: (md) => {
       md.use(footnote);
@@ -57,8 +72,8 @@ export default defineConfig({
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-QHK7PH5P59');",
     ],
   ],
-  title: "Code Hive Tx, LLC",
-  description: "Code Hive Tx, LLC is a small software consultancy located in Dripping Springs, Texas, USA.",
+  title,
+  description,
   themeConfig: {
     i18nRouting: true,
     // https://vitepress.dev/reference/default-theme-config

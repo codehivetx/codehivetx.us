@@ -21,6 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "@fontsource/source-code-pro": "^5.0.16",
+    "vitepress-plugin-rss": "^0.2.10",
     "vue-vimeo-player": "^1.1.2"
   }
 }

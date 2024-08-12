@@ -2,7 +2,7 @@
 
 - <https://codehivetx.us>
 
-## Made With Vue 3 + TypeScript + Vite + [Vitepress](vitepress.dev)
+## Made With Vue 3 + TypeScript + Vite + [Vitepress](https://vitepress.dev)
 
 ## Instructions here
 

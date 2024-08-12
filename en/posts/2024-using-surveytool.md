@@ -5,6 +5,8 @@ date: 2024-05-20
 
 As part of our work with the [CLDR Digitally Disadvantaged Languages (DDL)](https://cldr.unicode.org/ddl) workgroup, we created a training video for the Survey Tool. Enjoy!
 
+---
+
 <vimeo-player video-id="948529306"/>
 
 The Survey Tool has opened for data submission for version 46.
