@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, HeadConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
 
@@ -15,6 +15,25 @@ const RSS: RSSOptions = {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  transformHead: ({ pageData }) => {
+    const head: HeadConfig[] = []
+
+    if (pageData?.frontmatter?.title) {
+      head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }]);
+    }
+    if (pageData?.frontmatter?.description) {
+      head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }]);
+    }
+
+    // unconditionally add the RSS feed link
+    head.push(['link', {
+      rel: 'alternate',
+      type: 'application/rss+xml',
+      title: 'RSS',
+      href: 'https://codehivetx.us/feed.rss',
+    }]);
+    return head;
+  },
   vite: {
     plugins: [RssPlugin(RSS)],
   },
