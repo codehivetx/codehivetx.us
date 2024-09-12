@@ -121,8 +121,19 @@ SIL's [SLDR][] repository and langtags.json file also uses `-x-` to refer to lan
 
 Again to give the Kinyamulenge exmaple, one could use `rw-x-mulenge`. This could be used today (as private use) with the benefit that software processing this tag could "fall back" to `rw` Kinyarwanda.
 
+## Implementation
+
+I would like to discuss using BCP 47 for matching and in existing implementations in more detail in the future, but will include a few words for the present.
+
+It should be noted that while there are many BCP 47 compliant implementations, in ICU, the Java JDK, JavaScript (TC-39) and others, no implementation actually supports all possible extensions and subtags. By definition, private use is private use, and so implementations will be inconsistent from each other.
+
+In addition, IETF variant tags, and CLDR extension subtags are useful for tagging information, but are typically not usable for selecting locale codes in operating systems and other platforms.  Often, Language+Region or Language+Script+Region is the maximum detail that is supported: so, `zh-CN` or perhaps `zh-Hant-CN`, but not `ca-VALENCIA`.  This is probably something which should be addressed on a wider scale so that these mechanisms can be usable by digitally disadvantaged languages which do not otherwise have valid tags available to them, such as Kinyamulenge.
+
 ## Conclusion
 
+BCP 47, when used with extensions and (when necessary) private use, provides a lot of flexibility in tagging information.  For most languages and uses, there is probably an existing solution which will work well.
+
+There may be more extensions that are needed for supporting digitally disadvantaged languages, and there is definitely a need for better implementation of extensions in the area of locale data.
 
 <!-- Footnotes -->
 
