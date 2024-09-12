@@ -150,3 +150,4 @@ Again to give the Kinyamulenge exmaple, one could use `rw-x-mulenge`. This could
 [ISO 21636]: https://www.iso.org/standard/84965.html
 [ISO 3166-2:CD]: https://en.wikipedia.org/wiki/ISO_3166-2:CD
 [mule1238]: https://glottolog.org/resource/languoid/id/mule1238
+[SLDR]: https://github.com/silnrsi/sldr
