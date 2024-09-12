@@ -47,7 +47,7 @@ I recently returned from a week-long planning meeting in Siem Reap, Cambodia wit
 
 ## Next keystrokes
 
-As mentioned above, the spec work and the implementation work go hand-in-hand, giving leverage to the prospect of a major sea change in ease of keyboard implementation.  As of last week, we have the first actual keystrokes processed using a prototype CLDR keyboard.  But that’s for another post: [Keyboard Progress](./2022-kbd-progress)
+As mentioned above, the spec work and the implementation work go hand-in-hand, giving leverage to the prospect of a major sea change in ease of keyboard implementation.  As of last week, we have the first actual keystrokes processed using a prototype CLDR keyboard.  But that’s for another post: [Keyboard Progress](./2022-kbd-progress.md)
 
 -----
 
