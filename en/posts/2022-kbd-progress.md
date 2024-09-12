@@ -17,7 +17,7 @@ The purpose of this post is to give some updated progress on the status of imple
 
 # Basic Test
 
-In Keyman, there’s a sample XML file named [`basic.xml`](https://github.com/keymanapp/keyman/blob/feature-ldml/developer/src/kmc-keyboard/test/fixtures/basic.xml). It’s not a “real” keyboard, but instead a unit test file. In fact, as a keyboard it has only two keys. Here is the file in part (skipping aspects not relevant to this test):
+In Keyman, there’s a sample XML file named [`basic.xml`](https://github.com/keymanapp/keyman/blob/master/developer/src/kmc-ldml/test/fixtures/basic.xml). It’s not a “real” keyboard, but instead a unit test file. In fact, as a keyboard it has only two keys. Here is the file in part (skipping aspects not relevant to this test):
 
 ```xml
 <keyboard locale="mt" conformsTo="techpreview">
@@ -115,7 +115,7 @@ Let’s now try to work with a real keyboard, specifically MSA 100:2002 availabl
 
 <img src="../../img/2022/mt.png" title="Sirap K366P Maltese Keyboard" />
 
-In the `keyboard-preview` branch of CLDR, the [`mt.xml`](https://github.com/unicode-org/cldr/blob/keyboard-preview/keyboards/3.0/mt.xml) file is available as an example file. It reads in part:
+In CLDR, the [`mt.xml`](https://github.com/unicode-org/cldr/blob/main/keyboards/3.0/mt.xml) file is available as an example file. It reads in part:
 
 ```xml
   <keys>
