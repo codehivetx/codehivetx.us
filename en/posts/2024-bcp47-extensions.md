@@ -53,8 +53,7 @@ First, some examples.
 
 - `el-Latn-t-el-Grek`  This is content that is _in_ Latin, in fact, it's Greek written in Latin, but it is transformed _from_ `el-Grek` that is, from Greek in the Greek script.
 
-- `el-Latn-t-el-m0-bgn` This is content _in_ Latin, again Greek in Latin, but transformed from Greek (the Greek script is assumed), but according to
-So `zoí` for example would be the transformed version of `ζωή` (which is in `el-Grek`). The `m0-bgn` specifies that the transform is according to the [United States Board on Geographic Names (BGN)][BGN].
+- `el-Latn-t-el-m0-bgn` This is content _in_ Latin, again Greek in Latin, but transformed from Greek (the Greek script is assumed). As a concrete example, the word `zoí` could be tagged with this tag. This word is transformed from `ζωή` (which is in `el-Grek`). The `m0-bgn` specifies that the transform is according to the [United States Board on Geographic Names (BGN)][BGN].
 
 - From the RFC, `und-Cyrl-t-und-latn-m0-ungegn-2007`. This is a transform from Latin to Cyrillic, using the 2007 version of the UN/GEGN rules.
 
