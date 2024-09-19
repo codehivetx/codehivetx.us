@@ -3,7 +3,6 @@ title: IETF BCP 47 - extensions
 date: 2024-09-11
 tags:
     - bcp47
-draft: true
 ---
 
 This is the second post in a discussion of [BCP 47][] Language Tags, in which we will explore extensions to BCP 47, both current and future.
