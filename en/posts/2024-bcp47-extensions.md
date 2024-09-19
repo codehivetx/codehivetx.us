@@ -3,7 +3,6 @@ title: IETF BCP 47 - extensions
 date: 2024-09-11
 tags:
     - bcp47
-draft: true
 ---
 
 This is the second post in a discussion of [BCP 47][] Language Tags, in which we will explore extensions to BCP 47, both current and future.
@@ -33,11 +32,12 @@ The -u- extensions provide a variety of additional dimensions to language tags. 
 
 Most of the other subtags affect how software processing or producing text using [CLDR][] locale data operates. For example:
 
-- `en-u-tz-uslax` uses a UN LOCODE (in this case US-LAX, which, yes, refers to [Los Angeles International Airport](https://airportcodes.aero/lax)) that identifies, very compactly, the time zone `America/Los_Angeles`.  This type of a subtag is useful to convey user preferences, such as time zone, in environments (such as a browser context) where there otherwise isn't a way to convey such information.
 
 - `en-US-u-hc-h24` specifies that you want 24 hour time, despite the preferred value for `en-US` as normally indicating 12 hour time. Again, this allows for a level of user 'customization' and could be passed to a an API performing date formatting.
 
 - `cs-u-co-search` specifies the Czech language, but that a different collator is requested - one optimized for searching text, instead of sorting.  This useful as an argument to an API function.
+
+- `en-u-tz-uslax` uses a UN LOCODE (in this case US-LAX, which, yes, refers to [Los Angeles International Airport](https://airportcodes.aero/lax)) that identifies, very compactly, the time zone `America/Los_Angeles`.  This type of subtag could convey user preferences, such as time zone, in environments (such as a browser context) where there otherwise isn't a way to convey such information.  For other environments, it might be preferable to pass the time zone in some other way. 
 
 See [the whole list][u-key-type] for the latest details. CLDR continues to add new keys periodically as need arises.
 
