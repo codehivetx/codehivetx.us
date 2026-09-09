@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tailr": {
+      "command": "npx",
+      "args": [
+        "@gcrft123/tailr",
+        "mcp"
+      ]
+    }
+  }
+}

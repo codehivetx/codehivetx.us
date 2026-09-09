@@ -166,7 +166,7 @@ input.chcontact {
 }
 
 .action {
-  border: 2px solid rgb(35, 35, 44);
+  border: none;
   border-radius: 5px;
   margin: 1em;
 }
